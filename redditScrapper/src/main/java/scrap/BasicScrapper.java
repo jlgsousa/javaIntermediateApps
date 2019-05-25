@@ -1,4 +1,4 @@
-package converter.xml;
+package scrap;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -11,8 +11,8 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ConverterXmlToJava {
-    private final static Logger LOGGER = Logger.getLogger(ConverterXmlToJava.class.getName());
+public class BasicScrapper {
+    private final static Logger LOGGER = Logger.getLogger(BasicScrapper.class.getName());
     private static Scanner scanner;
 
     public static void main(String[] args) throws IOException {
